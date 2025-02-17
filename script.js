@@ -17,11 +17,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
     if (name === '' || email === '' || message === '') {
         alert('Please fill in all the fields.');
-    } else {
-        alert('Thank you for your message! I will get back to you soon.');
-       
-        document.getElementById('contact-form').reset();
-    }
+    } 
 });
 
 
